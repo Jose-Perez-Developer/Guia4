@@ -24,7 +24,7 @@ const Item = ({title}) => (
     </View>
 );
 
-const App = () => {
+export default function App(){
     consrenderItem =({item}) => (
         <item title={item.title}></item>
     );
